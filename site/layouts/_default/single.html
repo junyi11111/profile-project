@@ -74,23 +74,23 @@
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text={{ .Params.description }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-linkedin"></i>
+                  <a target="_blank" aria-label="LinkedIn으로 공유" href="https://www.linkedin.com/feed/?shareActive=true&text={{ .Params.description }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}&hashtags={{ delimit .Params.tags "," }}'>
-                    <i class="fab fa-twitter"></i>
+                  <a target="_blank" aria-label="X(트위터)로 공유" href='https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}&hashtags={{ delimit .Params.tags "," }}'>
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-whatsapp"></i>
+                  <a target="_blank" aria-label="WhatsApp으로 공유" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default (i18n "email_text") }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
-                    <i class="fa fa-envelope"></i>
+                  <a target="_blank" aria-label="이메일로 공유" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default (i18n "email_text") }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
                   </a>
                 </li>
               </ul>
@@ -106,8 +106,8 @@
       </div>
     </div>
   </div>
-  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
-    <i class="fas fa-angle-up"></i>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll" aria-label="맨 위로 이동">
+    <i class="fas fa-angle-up" aria-hidden="true"></i>
   </button>
 </section>
 
