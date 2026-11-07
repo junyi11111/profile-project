@@ -45,3 +45,6 @@ __pycache__/
 
 # Hugo 빌드 결과물
 /site/public/
+
+# macOS 폴더 정보 파일
+.DS_Store
