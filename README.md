@@ -31,6 +31,18 @@ hugo server --config hugo.yaml,pages.json --baseURL http://localhost:1313/
 - `--baseURL http://localhost:1313/`을 빼면 사이트가 `/profile-project/` 아래에서 열립니다. 이 경우 `/images/...` 경로가 맞지 않아 이미지가 보이지 않습니다. 이 경로 보정은 배포용 빌드 스크립트에서만 이루어집니다.
 - 1313 포트가 이미 사용 중이면 `--port 1414 --baseURL http://localhost:1414/`처럼 포트를 바꿔 실행합니다.
 
+## 빌드
+
+저장소 루트에서 GitHub Actions와 같은 배포용 빌드 스크립트를 실행합니다.
+
+```
+SITE_BASE_URL=https://junyi11111.github.io/profile-project/ python3 .github/pages_build.py --build
+```
+
+- `site/` 폴더를 Hugo로 빌드한 결과가 루트의 `public/`에 만들어집니다.
+- 빌드 뒤 HTML 안의 CSS·이미지·링크 경로를 `/profile-project/` 아래로 보정합니다. 끝에 `빌드 완료. 프로젝트 주소 경로 보정: N 개 파일`이 출력됩니다.
+- `public/`, `site/public/`은 빌드 결과물이라 `.gitignore`로 커밋에서 제외됩니다.
+
 ## 이미지 출처
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
