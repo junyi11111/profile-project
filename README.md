@@ -9,6 +9,16 @@ Hugo 테마 hugo-profile의 ZIP을 풀어 GitHub Pages로 배포하도록 준비
 - 저장소: https://github.com/junyi11111/profile-project
 - 실제 사이트 소스는 `site/` 폴더입니다. 루트의 `layouts/`, `exampleSite/`, `i18n/` 등은 테마 원본으로, 빌드에 쓰이지 않습니다.
 
+## 필요한 도구와 버전
+
+| 도구 | 버전 | 쓰이는 곳 |
+|---|---|---|
+| Hugo (extended) | 0.143.0 | GitHub Actions 배포 빌드 (`.github/workflows/hugo-pages.yml`의 `HUGO_VERSION`) |
+| Hugo (extended) | 0.169.0 | 로컬 확인에 사용한 버전 (`brew install hugo`로 설치) |
+| Python | 3.9 이상 | `prepare_github_pages.py`, `.github/pages_build.py` 실행 (GitHub Actions는 3.12, 로컬 확인은 3.14.6) |
+
+GitHub Actions는 위 도구 외에 Dart Sass 1.105.0, Node.js 24, Go 1.27.1도 자동으로 설치합니다. 로컬에서는 Hugo와 Python만으로 미리보기와 빌드를 확인했습니다.
+
 ## 이미지 출처
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
