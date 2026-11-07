@@ -203,6 +203,15 @@ params:
       - title: "컴퓨터인공지능학부 재학"
         school:
           name: "전북대학교"
+      - title: "졸업"
+        school:
+          name: "문산초등학교"
+      - title: "졸업"
+        school:
+          name: "문산중학교"
+      - title: "졸업"
+        school:
+          name: "문정여자고등학교"
 
   # Achievements (수상 내역 없음)
   achievements:
