@@ -19,6 +19,18 @@ Hugo 테마 hugo-profile의 ZIP을 풀어 GitHub Pages로 배포하도록 준비
 
 GitHub Actions는 위 도구 외에 Dart Sass 1.105.0, Node.js 24, Go 1.27.1도 자동으로 설치합니다. 로컬에서는 Hugo와 Python만으로 미리보기와 빌드를 확인했습니다.
 
+## 로컬 미리보기
+
+```
+cd site
+hugo server --config hugo.yaml,pages.json --baseURL http://localhost:1313/
+```
+
+브라우저에서 http://localhost:1313/ 을 엽니다. 파일을 저장하면 화면이 자동으로 새로고침됩니다. 종료는 `Ctrl + C`입니다.
+
+- `--baseURL http://localhost:1313/`을 빼면 사이트가 `/profile-project/` 아래에서 열립니다. 이 경우 `/images/...` 경로가 맞지 않아 이미지가 보이지 않습니다. 이 경로 보정은 배포용 빌드 스크립트에서만 이루어집니다.
+- 1313 포트가 이미 사용 중이면 `--port 1414 --baseURL http://localhost:1414/`처럼 포트를 바꿔 실행합니다.
+
 ## 이미지 출처
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
