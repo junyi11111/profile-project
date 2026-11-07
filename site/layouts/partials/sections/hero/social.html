@@ -1,0 +1,24 @@
+<span>
+    {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
+    <span class="px-1">
+        <a href="{{ .url }}"
+            {{ if not (or (hasPrefix .url "#") (hasPrefix .url "mailto:")) }} target="_blank" {{ end }}
+            class="btn social-icon"
+            {{ with .label }}aria-label="{{ . }}" title="{{ . }}"{{ end }}
+        >
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+        </a>
+    </span>
+    {{ end }}
+
+    {{ range .Site.Params.hero.socialLinks.customIcons }}
+    <span class="px-1">
+        <a href="{{ .url }}"
+            {{ if not (hasPrefix .url "#") }} target="_blank" {{ end }}
+            class="btn social-icon"
+        >
+            <img src="{{ .icon }}">
+        </a>
+    </span>
+    {{ end }}
+</span>
