@@ -38,11 +38,6 @@ Menus:
       title: 블로그 글
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: 갤러리
-      title: 이미지 갤러리
-      url: /gallery
-      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
