@@ -91,7 +91,20 @@ SITE_BASE_URL=https://junyi11111.github.io/profile-project/ python3 .github/page
    curl -s -o /dev/null -w '%{http_code}\n' https://junyi11111.github.io/profile-project/images/profile-network.png
    ```
 
-## 이미지 출처
+## 사용한 테마와 이미지 출처 및 이용 조건
+
+### 테마
+
+| 항목 | 내용 |
+|---|---|
+| 이름 | Hugo Profile |
+| 제작자 | Gurusabarish |
+| 저장소 | https://github.com/gurusabarish/hugo-profile |
+| 라이선스 | MIT License (`LICENSE`, `theme.toml`에 표기) |
+
+사이트 하단의 테마 제작자 크레딧은 그대로 유지합니다. 아래 `---` 뒤의 내용은 테마 원본 README입니다.
+
+### 이미지
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
 |---|---|---|---|---|
