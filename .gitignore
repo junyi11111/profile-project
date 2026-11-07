@@ -36,3 +36,6 @@ exampleSite/themes/
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# Python 임시 파일
+__pycache__/
