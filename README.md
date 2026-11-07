@@ -63,6 +63,34 @@ SITE_BASE_URL=https://junyi11111.github.io/profile-project/ python3 .github/page
 - `site/themes/template/`은 테마 원본이므로 고치지 않습니다. 템플릿을 바꿔야 할 때는 같은 경로로 `site/layouts/`에 파일을 만들어 덮어씁니다.
 - 배포 주소(baseURL)와 테마 이름은 `site/pages.json`에 있습니다.
 
+## 배포와 확인 방법
+
+`main` 브랜치에 push하면 GitHub Actions의 "Deploy Hugo to GitHub Pages" 워크플로가 자동으로 빌드하고 배포합니다. (GitHub 저장소 Settings → Pages → Source가 GitHub Actions로 설정되어 있어야 합니다.)
+
+1. 변경 내용을 커밋하고 push합니다.
+
+   ```
+   git add <바꾼 파일>
+   git commit -m "실제 변경 내용"
+   git push origin main
+   ```
+
+2. Actions 실행 결과를 확인합니다. 저장소의 Actions 탭(https://github.com/junyi11111/profile-project/actions)에서 보거나, GitHub CLI로 확인합니다.
+
+   ```
+   gh run list -R junyi11111/profile-project -L 3
+   gh run watch <실행 ID> -R junyi11111/profile-project --exit-status
+   ```
+
+   `build`와 `deploy`가 모두 성공(✓)이면 배포가 끝난 것입니다.
+
+3. 공개 화면을 확인합니다. 브라우저로 https://junyi11111.github.io/profile-project/ 을 열거나, 페이지와 이미지가 200으로 응답하는지 확인합니다.
+
+   ```
+   curl -s -o /dev/null -w '%{http_code}\n' https://junyi11111.github.io/profile-project/
+   curl -s -o /dev/null -w '%{http_code}\n' https://junyi11111.github.io/profile-project/images/profile-network.png
+   ```
+
 ## 이미지 출처
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
