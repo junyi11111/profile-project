@@ -254,7 +254,7 @@ params:
     recentPosts:
       path: "blogs"
       count: 3
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/junyi11111
