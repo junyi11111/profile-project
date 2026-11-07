@@ -186,6 +186,9 @@ params:
           - name: "학부연구생"
             date: "2026년 7월 ~ 현재 (진행 중)"
             content: "연구실에서 교수님 지도 아래 MAC 환경에서 충돌을 줄이면서 안전하게 전달할 수 있는 방법을 연구하고 있습니다."
+      - company: "2026 오픈소스 SW 아이디어 해커톤 캠프"
+        jobs:
+          - name: "장려상 수상"
 
   # Education
   education:
