@@ -42,3 +42,6 @@ __pycache__/
 
 # Python 임시 파일
 __pycache__/
+
+# Hugo 빌드 결과물
+/site/public/
