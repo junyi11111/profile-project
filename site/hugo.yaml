@@ -164,21 +164,23 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "소개"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      #### 관심 분야: 네트워크
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      컴퓨터네트워크와 운영체제 과목을 들으며 네트워크에 흥미가 생겼습니다. 눈에 보이지 않는 곳에서 정보가 나름의 체계를 이루며 전달되는 과정이 신기했고, 환경마다 최적의 체계가 있을 것 같아 더 알고 싶어졌습니다.
+
+      #### 학습 목표와 다음 행동
+
+      **목표** — MAC 계층 내용을 더 이해해서 제 설계를 구체화하는 것
+
+      **다음 행동** — 구현 프로그램(OMNeT++)을 익숙하게 다루며 실험을 이어 나가기
+
+      #### 역량과 사례
+
+      **OMNeT++** — 비교 논문의 설계를 시뮬레이터에서 같은 방식으로 구현하며 사용하고 있습니다.
     skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+      enable: false
 
   # Experience
   experience:
