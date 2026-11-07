@@ -1,3 +1,3 @@
 ---
-title: "Blogs"
+title: "블로그"
 ---
