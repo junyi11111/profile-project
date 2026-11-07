@@ -133,7 +133,7 @@ params:
     enable: true
     intro: "안녕하세요, 저는"
     title: "Park Junyi (박준이)"
-    subtitle: "전북대학교 컴퓨터인공지능학부 재학생, 학부연구생"
+    subtitle: "전북대학교 컴퓨터인공지능학부 재학생"
     content: "전북대학교 공과대학 (학부연구생)"
     image: /images/profile-network.png
     imageAlt: "어두운 배경 위에서 파란색과 보라색으로 빛나는 원형 점들이 가느다란 선으로 서로 연결된 네트워크 이미지"
