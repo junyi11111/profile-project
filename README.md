@@ -1,8 +1,10 @@
 ## 이미지 출처
 
-| 파일 | 출처 | URL | 제작 구분 |
-|---|---|---|---|
-| `site/static/images/profile-network.png` | freevisuals.net의 "Abstract Technology Network Free Stock Image" | https://www.freevisuals.net/item/abstract-technology-network-free-stock-image | 외부 자료 |
+| 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
+|---|---|---|---|---|
+| `site/static/images/profile-network.png` | freevisuals.net의 "Abstract Technology Network Free Stock Image" | https://www.freevisuals.net/item/abstract-technology-network-free-stock-image | 외부 자료 | 해당 페이지에 "Free for personal and commercial use, no attribution required"로 표기됨 (확인일: 2026-11-07) |
+| `site/static/images/projects/omnet-run.png` | 본인이 직접 구현한 OMNeT++ 시뮬레이션 실행 화면을 직접 캡처 | - | 직접 제작 | - |
+| `site/static/images/projects/omnet-result.png` | 본인이 직접 구현한 OMNeT++ 시뮬레이션 결과 화면을 직접 캡처 | - | 직접 제작 | - |
 
 ---
 
