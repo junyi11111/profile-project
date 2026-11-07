@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://junyi11111.github.io/profile-project/"
 languageCode: "ko"
 title: "Park Junyi (박준이)"
 
@@ -233,7 +233,6 @@ params:
     recentPosts:
       path: "blogs"
       count: 3
-      title: Recent Posts
       enable: true
       disableFeaturedImage: false
     socialNetworks:
@@ -248,23 +247,15 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: "min read"
     scrollprogress:
       enable: true
     tags:
       openInNewTab: true
 
-  # For translations
-  terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "All rights reserved"
-    emailText: "Check out this site"
-
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+    article: "2006년 1월 2일"
+    articleList: "2006년 1월 2일"
+    articleRecent: "2006년 1월 2일"
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
