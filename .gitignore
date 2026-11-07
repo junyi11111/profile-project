@@ -39,3 +39,6 @@ exampleSite/themes/
 
 # Python 임시 파일
 __pycache__/
+
+# Python 임시 파일
+__pycache__/
