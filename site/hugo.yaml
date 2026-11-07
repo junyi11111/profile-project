@@ -140,7 +140,8 @@ params:
     title: "Park Junyi (박준이)"
     subtitle: "전북대학교 컴퓨터인공지능학부 재학생, 학부연구생"
     content: "전북대학교 공과대학 (학부연구생)"
-    image: /images/hero.svg
+    image: /images/profile-network.png
+    imageAlt: "어두운 배경 위에서 파란색과 보라색으로 빛나는 원형 점들이 가느다란 선으로 서로 연결된 네트워크 이미지"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -164,7 +165,6 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
