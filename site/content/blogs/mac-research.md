@@ -54,7 +54,7 @@ OMNeT++에서 시뮬레이션을 실행 중인 화면입니다.
 
 ![OMNeT++ 결과 분석 화면의 Browse Data 탭. 노드별 txInterval과 rxInterval 항목의 개수, 평균, 표준편차, 분산 통계가 표로 정리되어 있다.](/images/projects/omnet-result.png)
 
-노드별 전송 주기(txInterval)와 수신 주기(rxInterval)의 통계를 확인한 화면입니다. 이를 바탕으로 노드가 주기적으로 전송을 잘 하고 있는지, 노드별 총 전송량과 PRR을 분석합니다.
+노드별 전송 주기(txInterval)와 수신 주기(rxInterval)의 통계를 확인한 화면입니다. 이를 바탕으로 노드별 총 전송량과 PRR을 분석해, 노드가 주기적으로 전송을 제대로 하고 있는지 확인합니다.
 
 ## 배운 점과 개선할 점
 
