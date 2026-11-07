@@ -1,3 +1,11 @@
+## 이미지 출처
+
+| 파일 | 출처 | URL | 제작 구분 |
+|---|---|---|---|
+| `site/static/images/profile-network.png` | freevisuals.net의 "Abstract Technology Network Free Stock Image" | https://www.freevisuals.net/item/abstract-technology-network-free-stock-image | 외부 자료 |
+
+---
+
 # Hugo Profile
 
 [![Twitter](https://img.shields.io/twitter/url?label=Tweet&style=social&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile) [![GitHub forks](https://img.shields.io/github/forks/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/network) [![GitHub stars](https://img.shields.io/github/stars/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/stargazers)
