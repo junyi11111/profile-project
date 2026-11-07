@@ -1,3 +1,14 @@
+# Park Junyi (박준이) 프로필 사이트
+
+## 프로젝트 소개
+
+전북대학교 컴퓨터인공지능학부 재학생이자 학부연구생인 박준이(Park Junyi)의 프로필 사이트입니다.
+Hugo 테마 hugo-profile의 ZIP을 풀어 GitHub Pages로 배포하도록 준비한 Hugo 프로젝트입니다.
+
+- 공개 주소: https://junyi11111.github.io/profile-project/
+- 저장소: https://github.com/junyi11111/profile-project
+- 실제 사이트 소스는 `site/` 폴더입니다. 루트의 `layouts/`, `exampleSite/`, `i18n/` 등은 테마 원본으로, 빌드에 쓰이지 않습니다.
+
 ## 이미지 출처
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
