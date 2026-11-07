@@ -43,6 +43,26 @@ SITE_BASE_URL=https://junyi11111.github.io/profile-project/ python3 .github/page
 - 빌드 뒤 HTML 안의 CSS·이미지·링크 경로를 `/profile-project/` 아래로 보정합니다. 끝에 `빌드 완료. 프로젝트 주소 경로 보정: N 개 파일`이 출력됩니다.
 - `public/`, `site/public/`은 빌드 결과물이라 `.gitignore`로 커밋에서 제외됩니다.
 
+## 내용 수정 방법
+
+모든 수정은 `site/` 폴더 안에서 합니다.
+
+| 바꿀 내용 | 고칠 파일 |
+|---|---|
+| 사이트 제목, 첫 화면(hero) 이름·소개·프로필 이미지·alt | `site/hugo.yaml`의 `title`, `params.title`, `params.navbar.brandName`, `params.hero` |
+| 소개(관심 분야, 학습 목표, 역량) | `site/hugo.yaml`의 `params.about` |
+| 경력, 학력 | `site/hugo.yaml`의 `params.experience`, `params.education` |
+| 대표 활동 카드 | `site/hugo.yaml`의 `params.projects` |
+| 연락처, SNS 링크 | `site/hugo.yaml`의 `params.contact`, `params.hero.socialLinks`, `params.footer.socialNetworks` |
+| 상단 메뉴 | `site/hugo.yaml`의 `Menus.main` |
+| 블로그 글 | `site/content/blogs/` 안의 `.md` 파일 (대표 활동 글: `mac-research.md`) |
+| 이미지 | `site/static/images/` (산출물 이미지: `site/static/images/projects/`) |
+| 메뉴·버튼 등 화면 문구의 한국어 번역 | `site/i18n/ko.toml` |
+| 이미지 alt 처리 템플릿 | `site/layouts/partials/sections/hero/index.html`, `site/layouts/partials/sections/projects.html` |
+
+- `site/themes/template/`은 테마 원본이므로 고치지 않습니다. 템플릿을 바꿔야 할 때는 같은 경로로 `site/layouts/`에 파일을 만들어 덮어씁니다.
+- 배포 주소(baseURL)와 테마 이름은 `site/pages.json`에 있습니다.
+
 ## 이미지 출처
 
 | 파일 | 출처 | URL | 제작 구분 | 이용 조건 |
