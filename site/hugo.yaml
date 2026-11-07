@@ -189,6 +189,10 @@ params:
       - company: "2026 오픈소스 SW 아이디어 해커톤 캠프"
         jobs:
           - name: "장려상 수상"
+      - company: "컴퓨터구조 과목"
+        jobs:
+          - name: "TA"
+            date: "2026년 9월 ~ 현재 (진행 중)"
 
   # Education
   education:
